@@ -1,5 +1,5 @@
 import axios from "axios";
-import yelpKey from "../keys/YelpKey";
+import yelpKey from "../../YelpKey";
 
 export default axios.create({
     baseURL: 'https://api.yelp.com/v3/businesses',
