@@ -11,7 +11,7 @@ export default () => {
              params: {
                     limit: 50,
                     term: term,
-                    location: 'san jose'
+                    location: 'santa cruz'
                 }
             });
             setResults(response.data.businesses);
